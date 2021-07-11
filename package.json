@@ -1,0 +1,12 @@
+{
+  "name": "sdk-root",
+  "description": "Root SDK for @arisuland/sdk, @arisuland/sdk-browser, and the Deno SDK.",
+  "private": true,
+  "workspaces": [
+    "./packages/sdk-browser",
+    "./packages/sdk"
+  ],
+  "scripts": {
+    "docs": "typedoc --workspaces . --out ./docs"
+  }
+}

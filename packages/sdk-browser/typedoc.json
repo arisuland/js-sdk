@@ -1,0 +1,8 @@
+{
+  "excludeProtected": true,
+  "excludePrivate": true,
+  "tsconfig": "tsconfig.json",
+  "entryPoints": ["src/index.ts"],
+  "readme": "README.md",
+  "name": "SDK | Browser"
+}
