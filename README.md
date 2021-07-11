@@ -1,5 +1,4 @@
-# @arisuland/sdk [![npm version](https://badge.fury.io/js/%40arisuland%2Fsdk.svg)](https://badge.fury.io/js/%40arisuland%2Fsdk) [![Stars](https://img.shields.io/github/stars/arisuland/javascript-sdk)](https://github.com/arisuland/javascript-sdk) [![Workflow Status](https://github.com/arisuland/javascript-sdk/workflows/ESLint/badge.svg)](https://github.com/arisuland/javascript-sdk/tree/master/.github/workflows) [![Build Status](https://travis-ci.org/arisuland/javascript-sdk.svg?branch=master)](https://travis-ci.org/arisuland/javascript-sdk) [![Build Size](https://img.shields.io/bundlephobia/min/@augu/collections?style=flat-square)](https://github.com/arisuland/javascript-sdk)
-
+# @arisuland/sdk
 > ☔🕊️ **JavaScript client library for accessing Arisu's API, made in TypeScript**
 
 ## Monorepo Struture
