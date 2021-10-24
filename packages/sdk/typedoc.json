@@ -4,5 +4,5 @@
   "tsconfig": "tsconfig.json",
   "entryPoints": ["src/index.ts"],
   "readme": "README.md",
-  "name": "SDK | Node"
+  "name": "Arisu SDK - Node.js"
 }

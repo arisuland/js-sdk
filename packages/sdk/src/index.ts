@@ -1,5 +1,5 @@
 /**
- * ☔🕊️ @arisuland/sdk-browser - JavaScript client library for accessing Arisu's API, made in TypeScript
+ * ☔🕊️ @arisu/sdk - JavaScript client library for accessing Arisu's API, made in TypeScript
  * Copyright (c) 2021 Noelware
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,4 +16,7 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-export const foo = 'bar';
+/**
+ * Returns the version for **`@arisu/sdk`**.
+ */
+export const version: string = require('../package.json').version;

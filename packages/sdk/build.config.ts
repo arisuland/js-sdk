@@ -1,5 +1,5 @@
 /**
- * ☔🕊️ @arisuland/sdk-browser - JavaScript client library for accessing Arisu's API for the browser
+ * ☔🕊️ @arisu/sdk - JavaScript client library for accessing Arisu's API, made in TypeScript
  * Copyright (c) 2021 Noelware
  *
  * This program is free software: you can redistribute it and/or modify
@@ -16,8 +16,23 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/** */
-declare namespace Arisu {}
+import { join } from 'path';
+import { defineBuildConfig } from 'unbuild';
 
-export = Arisu;
-export as namespace Arisu;
+export default defineBuildConfig({
+  entries: [
+    {
+      input: './src/index',
+      name: 'sdk',
+      builder: 'rollup',
+      format: 'esm',
+    },
+  ],
+  declaration: true,
+  inlineDependencies: true,
+  emitCJS: true,
+  cjsBridge: true,
+  outDir: join(process.cwd(), 'build'),
+  clean: true,
+  pkg: require('./package.json'),
+});

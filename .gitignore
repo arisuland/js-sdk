@@ -1,7 +1,13 @@
+# Project
+
 node_modules
+build
 
-sdk-browser/build
-sdk/build/
+# Yarn workspace
+.yarn/cache/
+.yarn/install-state.gz
 
-*.lock
-*.log
+# Jetbrains IDEs
+
+.idea/
+\*/.idea/
