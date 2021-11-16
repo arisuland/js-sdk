@@ -17,12 +17,12 @@
  */
 
 import type { User } from '@arisu/typings';
-import Client from '../Client';
+import { Client } from '../Client';
 
 /**
  * Represents methods to get and update user information.
  */
-export default class UserRepository {
+export class UserRepository {
   #client: Client;
 
   /**

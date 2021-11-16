@@ -17,7 +17,7 @@
  */
 
 import { HttpClient } from '@augu/orchid';
-import UserRepository from './repositories/UserRepository';
+import { UserRepository } from './repositories/UserRepository';
 
 const { version }: { version: string } = require('../package.json');
 
@@ -51,7 +51,7 @@ const kClientOptions: ClientOptions = {
  * Represents the Arisu client, where you can call methods to
  * retrieve information from our API.
  */
-export default class Client {
+export class Client {
   readonly options: Required<Omit<ClientOptions, 'token'>> & { token?: string };
   private http: HttpClient;
 
