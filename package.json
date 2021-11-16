@@ -7,7 +7,7 @@
     "./packages/sdk"
   ],
   "scripts": {
-    "docs": "typedoc --entryPointStrategy packages . --out docs/"
+    "docs": "typedoc --entryPointStrategy packages . --readme --out docs/"
   },
   "devDependencies": {
     "prettier": "2.4.1",
