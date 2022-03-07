@@ -42,7 +42,7 @@ __metadata:
     "@rollup/plugin-babel": 5.3.0
     "@rollup/plugin-commonjs": 21.0.1
     "@rollup/plugin-node-resolve": 13.0.6
-    "@rollup/plugin-replace": 3.0.0
+    "@rollup/plugin-replace": 3.1.0
     "@rollup/plugin-typescript": 8.3.0
     "@types/node": 16.11.7
     "@typescript-eslint/eslint-plugin": 5.3.1
@@ -316,7 +316,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rollup/plugin-replace@npm:3.0.0, @rollup/plugin-replace@npm:^3.0.0":
+"@rollup/plugin-replace@npm:3.1.0":
+  version: 3.1.0
+  resolution: "@rollup/plugin-replace@npm:3.1.0"
+  dependencies:
+    "@rollup/pluginutils": ^3.1.0
+    magic-string: ^0.25.7
+  peerDependencies:
+    rollup: ^1.20.0 || ^2.0.0
+  checksum: 9f833d40f7ebd6bb32b1c7a118fedd27a6d63e591018543740c78d3bc6fe67efa7048c6457bcadf8f982385b78e33ff8e38a67ddd4d11c15d9c81898a0757c13
+  languageName: node
+  linkType: hard
+
+"@rollup/plugin-replace@npm:^3.0.0":
   version: 3.0.0
   resolution: "@rollup/plugin-replace@npm:3.0.0"
   dependencies:
