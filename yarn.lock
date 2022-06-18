@@ -14,7 +14,7 @@ __metadata:
     "@augu/orchid": 3.1.1
     "@augu/tsconfig": 1.1.1
     "@augu/utils": 1.5.6
-    "@types/node": 16.11.7
+    "@types/node": 16.11.41
     "@typescript-eslint/eslint-plugin": 5.3.1
     "@typescript-eslint/parser": 5.3.1
     defu: 5.0.0
@@ -44,7 +44,7 @@ __metadata:
     "@rollup/plugin-node-resolve": 13.0.6
     "@rollup/plugin-replace": 3.0.0
     "@rollup/plugin-typescript": 8.3.0
-    "@types/node": 16.11.7
+    "@types/node": 16.11.41
     "@typescript-eslint/eslint-plugin": 5.3.1
     "@typescript-eslint/parser": 5.3.1
     eslint: 8.2.0
@@ -393,10 +393,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:16.11.7":
+"@types/node@npm:*":
   version: 16.11.7
   resolution: "@types/node@npm:16.11.7"
   checksum: 2706403e6efc4aa40fdce8f0b5d9884d5600c3c8610aedc7fa5e7e298d30366f7e8b7296028d52898dca3edef4c3e827b03bf20952c4780f13fa4e79864f7a86
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:16.11.41":
+  version: 16.11.41
+  resolution: "@types/node@npm:16.11.41"
+  checksum: 808e4d65757bb13cf25e88dfa4e65880efef06652b04baecb051eb90cf090dda9812aa3505b31e963a48041eed7dbe0fc59c44c7c5e117da952ff951bf3a584a
   languageName: node
   linkType: hard
 
