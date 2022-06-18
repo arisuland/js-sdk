@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "prettier": "2.4.1",
-    "typedoc": "0.22.9"
+    "typedoc": "0.22.17"
   }
 }
