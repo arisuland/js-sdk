@@ -49,7 +49,7 @@ __metadata:
     "@typescript-eslint/parser": 5.3.1
     eslint: 8.2.0
     eslint-config-prettier: 8.3.0
-    rollup: 2.60.0
+    rollup: 2.75.7
     typescript: 4.4.4
   languageName: unknown
   linkType: soft
@@ -2536,7 +2536,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.60.0, rollup@npm:^2.58.0":
+"rollup@npm:2.75.7":
+  version: 2.75.7
+  resolution: "rollup@npm:2.75.7"
+  dependencies:
+    fsevents: ~2.3.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  bin:
+    rollup: dist/bin/rollup
+  checksum: a6331d46b01062b184efdcb42ce12caf2e1575f989963944534b02f5855f6f3bc239ed0c1a18893572d7695af6d83166f3aef59dbd0365084e1531cb67824674
+  languageName: node
+  linkType: hard
+
+"rollup@npm:^2.58.0":
   version: 2.60.0
   resolution: "rollup@npm:2.60.0"
   dependencies:
